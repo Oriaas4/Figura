@@ -4,11 +4,11 @@ public abstract class Figura {
 	
 	protected int x;
 	protected int y;
-	int alex=4;
+	protected int z;
 	
 	public Figura(int x,int y) {
 		this.x=x;
-		this.y=y;
+		this.z=y;
 	}
 
 	public abstract double area();	
